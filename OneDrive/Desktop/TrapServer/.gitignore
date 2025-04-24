@@ -1,0 +1,47 @@
+ECHO is on.
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore Python bytecode and temporary files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore database files (if any)
+*.sqlite3
+*.db
+
+# Ignore cache and backup files
+.cache/
+*.bak
+*.swp
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore OS-specific files
+*.bak
+*.swp
+
+# Ignore Windows-specific files
+NTUSER.DAT*
+Thumbs.db
+
+# Ignore large files or directories that aren't part of the repo
+Downloads/
+AppData/
