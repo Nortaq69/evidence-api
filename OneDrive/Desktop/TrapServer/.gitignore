@@ -1,47 +1,63 @@
-ECHO is on.
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE and editor files
-.idea/
-.vscode/
-
-# Ignore Python bytecode and temporary files
+*.pyc 
+# Python garbage
+__pycache__/
 *.pyc
 *.pyo
-__pycache__/
+*.pyd
 
-# Ignore log files
-*.log
-
-# Ignore virtual environments
+# Environment stuff
+.env
+.venv/
+env/
 venv/
-.env/
-*.env
 
-# Ignore database files (if any)
-*.sqlite3
-*.db
+# IDEs and editors
+.vscode/
+.idea/
 
-# Ignore cache and backup files
-.cache/
-*.bak
-*.swp
-
-# Ignore package manager files
-node_modules/
-package-lock.json
-yarn.lock
-
-# Ignore OS-specific files
-*.bak
-*.swp
-
-# Ignore Windows-specific files
-NTUSER.DAT*
+# OS trash
+*.DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Ignore large files or directories that aren't part of the repo
-Downloads/
-AppData/
+# Logs & caches
+*.log
+*.cache/
+*.bak
+
+# Media & junk files
+*.mp4
+*.wmv
+*.zip
+*.rar
+*.lnk
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.avif
+
+# Node modules & random tools
+node_modules/
+tesseract-main/
+chrome-win64/
+chromedriver-win64/
+
+# Ignore user folders & irrelevant folders
+/Downloads/
+/Documents/
+/Pictures/
+/Music/
+/Videos/
+/Contacts/
+/Favorites/
+/AppData/
+/Saved Games/
+/Searches/
+/OneDrive/
+/3D Objects/
+/Links/
+/My Documents/
+/Desktop/
